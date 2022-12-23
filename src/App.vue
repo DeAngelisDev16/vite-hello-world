@@ -1,8 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue';
 import AppTitle from './components/AppTitle.vue';
-
-
+import AppHero from './components/AppHero.vue';
 </script>
 
 <template>
@@ -16,6 +15,8 @@ import AppTitle from './components/AppTitle.vue';
   </div>
   <HelloWorld msg="Vite + Vue" />
   <AppTitle />
+  <AppHero />
+
 </template>
 
 <style scoped>
